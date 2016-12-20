@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # All of these gems are added after rails new
+gem 'passenger'
 gem 'mime-types', '2.6.2'
 gem 'public_suffix', '1.4.6'
 gem 'autoprefixer-rails', '6.0.3'
