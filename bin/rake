@@ -1,4 +1,12 @@
 #!/usr/bin/env ruby
+
+# below section added after rails new
+begin
+  load File.expand_path("../spring", __FILE__)
+rescue LoadError
+end
+
+# below section created with rails new
 require_relative '../config/boot'
 require 'rake'
 Rake.application.run
